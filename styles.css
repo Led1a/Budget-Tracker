@@ -1,0 +1,225 @@
+/* Import font */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap');
+
+body {
+    
+    font-family: 'Nunito Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E5E7EB;
+}
+.auth{
+    background-image: url(https://img.freepik.com/free-photo/red-piggy-bank-white-table_23-2147931101.jpg?t=st=1717240830~exp=1717244430~hmac=295d5a2a14a3810d68927f685dec58ada63d76571eee9bae2b22426db824322c&w=996);
+    width:max-content;
+}
+header {
+    background-color: #ffffff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    width: 100%;
+}
+
+.logo {
+    margin-left: 20px;
+    width: 150px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #cd804c;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px;
+    background-color: #019663;
+    color: white;
+    width: 60%;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.hero h1 {
+    margin: 0;
+    font-size: 3em;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin: 20px 0;
+}
+
+.hero a {
+    text-decoration: none;
+    padding: 15px 30px;
+    background-color: #FFD402;
+    color: #015AA0;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.hero a:hover {
+    background-color: #e6bc00;
+}
+
+.features, .contact-support, .dashboard, .savings-goals, .auth, .management {
+    padding: 50px;
+    background-color: #f4f4f4;
+    width: 60%;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.features h2, .contact-support h2, .dashboard h2, .savings-goals h2, .auth h2, .management h2 {
+    color: #015AA0;
+    text-align: center;
+}
+
+.feature-item, .tip, .form-container, .stats .stat-item, .chart, .goal-item, .contact-info, .resources {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.feature-item img, .tip h3, .form-container h3, .stats .stat-item h3, .chart h3, .goal-item p, .contact-info p, .resources h3, .resources ul li a {
+    color: #06A696;
+}
+
+.footer a, .contact-info p, .resources ul li a, .form-container label, .form-container input, .form-container button, .resources ul, .contact-info {
+    color: #333;
+}
+
+footer {
+    background-color: #f08d22;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.form-container h3 {
+    margin: 0 0 20px;
+}
+
+.form-container label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.form-container input, .form-container textarea, .form-container select {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.form-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #019663;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-container button:hover {
+    background-color: #06A696;
+}
+
+.dashboard .stats, .dashboard .charts, .savings-goals .goals-list, .auth {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.stats .stat-item, .charts .chart, .goal-item, .resources ul {
+    width: 30%;
+}
+
+.contact-info p, .resources ul li {
+    margin: 10px 0;
+}
+
+.progress-bar {
+    width: 80%;
+    background-color: #FFD402;
+    height: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.progress-bar div {
+    height: 100%;
+    background-color: #015AA0;
+    text-align: center;
+    line-height: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+.transactions table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.transactions th, .transactions td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+.transactions th {
+    background-color: #0056b3;
+    color: white;
+}
+
+.transactions tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
